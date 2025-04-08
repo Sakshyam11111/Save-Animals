@@ -13,7 +13,6 @@ import About from './components/navbar/About';
 import Campaigns from './components/navbar/Campaigns';
 import Contributors from './components/navbar/Contributors';
 import Contact from './components/navbar/Contact';
-import Donate from './components/navbar/Donate';
 
 const App = () => {
     return (
@@ -29,7 +28,6 @@ const App = () => {
                         <Achievements />
                         <DocumentarySection />
                         <HelpSection />
-                        <Donate />
                     </>
                 } />
                 <Route path="/about" element={<About />} />
